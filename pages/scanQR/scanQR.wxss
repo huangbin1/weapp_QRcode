@@ -1,0 +1,8 @@
+/* pages/subPage/scanQR.wxss */
+.button-click{
+  opacity: 0.7;
+}
+.QR_button{
+  margin-top:20px;
+  width:300px;
+}

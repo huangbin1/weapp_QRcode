@@ -1,0 +1,5 @@
+<!--pages/subPage/scanQR.wxml-->
+<view class="section">
+  
+  <button type="primary" size="default"   hover-class="button-click" class="QR_button" bindtap="startScan">扫描二维码 </button>
+</view>

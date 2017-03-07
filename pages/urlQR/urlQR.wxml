@@ -1,8 +1,8 @@
-<!--index.wxml-->
+<!--urlQR.wxml-->
 <view class="container">
 
 <view class="section">
-  <input  bindinput="bindKeyInput" placeholder="请输入文本内容" placeholder-style="color:#F4C6D0;"/>
+  <input  bindinput="bindKeyInput" placeholder="http://" placeholder-style="color:#F4C6D0;"/>
   <button type="primary" size="default"   hover-class="button-click" class="QR_button"> 生成二维码 </button>
 </view>
 

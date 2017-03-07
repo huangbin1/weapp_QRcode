@@ -1,12 +1,40 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/textQR/textQR",
+    "pages/urlQR/urlQR",
+    "pages/scanQR/scanQR"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarBackgroundColor": "#F4C6D0",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "二维码工房",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color":"#F4C6D0",
+    "selectedColor":"#F35071",
+    "backgroundColor":"#fff",
+    "list":[{
+        "text":"文本",
+        "pagePath":  "pages/index/index",
+        "iconPath":"assets/image/textQR.png",
+        "selectedIconPath":"assets/image/textQR_s.png"
+      },
+      {
+        "text":"网址",
+        "pagePath":  "pages/urlQR/urlQR",
+        "iconPath":"assets/image/urlQR.png",
+        "selectedIconPath":"assets/image/urlQR_s.png"
+      },
+      {
+        "text":"扫描",
+        "pagePath":  "pages/scanQR/scanQR",
+        "iconPath":"assets/image/scanQR.png",
+        "selectedIconPath":"assets/image/scanQR_s.png"
+      }]
+  },
+   "debug": true
 }
